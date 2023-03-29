@@ -11,7 +11,7 @@ jobs:
     - name: Checkout
       uses: actions/checkout@v2
     - name: Publish Docker
-      uses: elgohr/Publish-Docker-Github-Action@2.12
+      uses: elgohr/Publish-Docker-Github-Action@v5
       with:
         name: yogstation13/yogbot/yogbot
         username: ${{secrets.DOCKER_PUSH_USERNAME}}
